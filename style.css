@@ -240,37 +240,43 @@ header {
 
 .text-area>input,
 select {
-    margin-bottom: 10px;
-    padding: 15px;
+    margin-bottom: 25px;
+    padding: 30px;
     border: none;
     border-radius: 45px;
-    
+
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.211);
-    
+
     font-size: 15px;
     outline: none;
+}
+
+.text-area>input::-webkit-input-placeholder {
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .text-area>label {
     font-size: 25px;
     color: white;
     /* text-align: center; */
-    
 
-  margin-bottom: .3rem;
-  font-size: .9rem;
-  font-weight: bold;
-  color: #05060f99;
-  transition: color .3s cubic-bezier(.25,.01,.25,.5) 0s;
-  margin-left: 15px;
+
+    margin-bottom: .3rem;
+    font-size: .9rem;
+    font-weight: bold;
+    color: #05060f99;
+    transition: color .3s cubic-bezier(.25, .01, .25, .5) 0s;
+    margin-left: 28px;
 
 }
-.text-area>label:hover{
-    transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
-    color: #05060f;
+
+.text-area>label:hover {
+    transition: color .3s cubic-bezier(.25, .01, .25, 1) 0s;
+    color: #05060f00;
 }
 
-.text-area select{
+.text-area select {
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
@@ -281,33 +287,35 @@ select {
     background-size: 25px;
     background-color: white;
 }
-.registration .neto p{
+
+.registration .neto p {
     color: rgb(234, 234, 234);
 }
 
-.registration .submit{
+.registration .submit {
     padding: 1.3em 3em;
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 2.5px;
-  font-weight: 500;
-  color: #000;
-  background-color: #fff;
-  border: none;
-  border-radius: 45px;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease 0s;
-  cursor: pointer;
-  outline: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
 }
 
-.registration .submit:hover{
+.registration .submit:hover {
     background-color: #d9c293;
     box-shadow: 0px 15px 20px rgba(217, 194, 146, 0.4);
     color: #fff;
     transform: translateY(-7px);
 }
-.registration .submit:active{
+
+.registration .submit:active {
     transform: translateY(-1px);
 }
 
