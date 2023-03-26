@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Nabla&display=swap');
 
 :root {
-    --color-cor_do_fundo: #7a7a7a;
-    --color-cor_do_fundo2: #4f4f4f;
+    --color-cor_do_fundo: #2579C2;
+    --color-cor_do_fundo2: #395975;
+    --color-cor_do_card: #79BCF7;
+    /* --color-cor_do_card: #2F98F5; */
+    /* --color-cor_do_card_variado: #79BCF7; */
+    --color-cor_do_card_variado: #2F98F5;
+    
 
 }
 
@@ -68,7 +73,8 @@ header {
     margin-top: 50px;
     width: 750px;
     padding: 60px;
-    background-color: rgba(0, 68, 255, 0.3);
+    /* background-color: rgba(0, 68, 255, 0.3); */
+    background-color:var(--color-cor_do_card);
     border-radius: 20px;
 
     position: relative;
@@ -144,7 +150,7 @@ header {
     width: 750px;
     padding: 50px;
     margin: auto;
-    background-color: rgba(0, 68, 255, 0.3);
+    background-color: var(--color-cor_do_card_variado);
     /* background-color: aquamarine; */
 
     transition: .4s;
@@ -184,15 +190,17 @@ header {
 }
 
 .galery-container .neto a {
-    /* padding: 10px; */
-    margin-top: 60px;
+    padding: 0px;
+    /* gap: 100px; */
 }
 
 .galery-container .neto {
+    margin-top: 20px;
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     justify-content: center;
     /* margin:5px; */
+    
 }
 
 .galery-container .photo {
@@ -206,16 +214,18 @@ header {
 
 .galery-container .photo img {
     width: 100%;
-    /* height: 100%; */
     transition: .4s;
     border-radius: 10px;
-    cursor: none;
+    /* height: 100%; */
+    /* cursor: none; */
 }
 
 .galery-container .photo:hover img {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
+
+ /* ISCRIÇÃO */
 .registration-main {
     position: relative;
     width: 850px;
@@ -225,7 +235,7 @@ header {
 }
 
 .registration {
-    background-color: rgba(0, 68, 255, 0.3);
+    background-color: var(--color-cor_do_card);
     border-radius: 20px;
     padding: 80px 80px 30px 80px;
     box-shadow: -10px 30px 20px rgba(0, 0, 0, .2);
@@ -295,9 +305,9 @@ select {
     -moz-appearance: none;
     -webkit-appearance: none;
 
-    background: url('./images/arrow.png');
+    background: url('./images/angles-down-solid.svg');
     background-repeat: no-repeat;
-    background-position: calc(100% - 10px) center;
+    background-position: calc(100% - 35px) center;
     background-size: 25px;
     background-color: white;
 }
@@ -335,7 +345,7 @@ select {
 .registration .submit:active {
     transform: translateY(-1px);
 }
-
+/* QUEM SOMOS */
 .quem-somos-main {
     position: relative;
     width: 850px;
@@ -358,7 +368,7 @@ select {
     padding-top: 100px;
     padding: 50px;
     margin: auto;
-    background-color: rgba(0, 68, 255, 0.3);
+    background-color: var(--color-cor_do_card_variado);
     /* background-color: aquamarine; */
 
     transition: .4s;
