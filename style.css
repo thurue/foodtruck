@@ -28,7 +28,7 @@ header {
     background-color: rgba(127, 255, 212, 0);
     padding: 10px;
     position: relative;
-    border-radius: 0px 0px 40px 40px;
+    border-radius: 0px 0px 60px 60px;
     background-color: rgb(255, 255, 255);
 }
 
@@ -419,7 +419,7 @@ select {
 
 footer {
     width: 100%;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-top: 200px;
 }
 
@@ -428,7 +428,8 @@ footer {
 }
 
 #footer-content {
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(255, 255, 255);
+    border-radius: 60px 60px 0px 0px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 3rem 3.5rem;
@@ -491,7 +492,6 @@ footer {
 
 .footer-list .footer-link {
     text-decoration: none;
-    color: #575757;
     transition: all .4s;
     font-weight: bold;
 }
@@ -501,11 +501,12 @@ footer {
 }
 
 .footer-copyright {
-    background-color: #111111;
+    background-color: #f6f6f6;
+    color: #000000;
     text-align: center;
     padding: 10px;
     font-size: .8rem;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 @media screen and (max-width: 768px) {
