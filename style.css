@@ -8,7 +8,6 @@
     /* --color-cor_do_card_variado: #79BCF7; */
     --color-cor_do_card_variado: #2F98F5;
 
-
 }
 
 body {
@@ -74,7 +73,10 @@ header {
     width: 750px;
     padding: 60px;
     /* background-color: rgba(0, 68, 255, 0.3); */
+
     background-color: var(--color-cor_do_card);
+
+    background-color:var(--color-cor_do_card);
     border-radius: 20px;
 
     position: relative;
@@ -211,7 +213,6 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     /* margin:5px; */
-
 }
 
 .galery-container .photo {
@@ -235,8 +236,6 @@ header {
     transform: scale(1.1);
 }
 
-
-/* ISCRIÇÃO */
 .registration-main {
     position: relative;
     width: 850px;
@@ -356,7 +355,6 @@ select {
 .registration .submit:active {
     transform: translateY(-1px);
 }
-
 /* QUEM SOMOS */
 .quem-somos-main {
     position: relative;
@@ -405,7 +403,6 @@ select {
     color: white;
     font-weight: bold;
     font-size: 25px;
-    text-align: justify;
 }
 
 footer {
