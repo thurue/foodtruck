@@ -34,10 +34,11 @@ header {
 
 .logo-space {
     margin: auto;
-    width: 125px;
+    width: 200px;
     height: 200px;
+    object-fit: cover;
     /* display: inline-block; */
-    background-image: url(./images/logo-exemplo.png);
+    background-image: url(./images/logo-exemplo1.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -51,7 +52,7 @@ header {
 
 .links-space a {
     text-decoration: none;
-    color: rgb(30, 98, 157);
+    color: #2579c2;
     margin: 30px;
     font-size: 30px;
     font-weight: bold;
@@ -241,6 +242,7 @@ header {
     transform: scale(1.1);
 }
 
+
 .registration-main {
     position: relative;
     left: 50%;
@@ -276,6 +278,7 @@ header {
     flex-direction: column;
     /* align-items: flex-start; */
     margin: auto;
+    
 }
 
 .text-area>input,
@@ -329,7 +332,9 @@ select {
 }
 
 .registration .neto p {
-    color: rgb(234, 234, 234);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 23px;
 }
 
 .registration .submit {
