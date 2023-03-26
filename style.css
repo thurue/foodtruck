@@ -7,6 +7,7 @@
     /* --color-cor_do_card: #2F98F5; */
     /* --color-cor_do_card_variado: #79BCF7; */
     --color-cor_do_card_variado: #2F98F5;
+    /* --color-cor_do_card_variado: #2f99f500; */
 
 }
 
@@ -16,6 +17,8 @@ body {
     font-family: 'inter', Geneva, Tahoma, sans-serif;
     background-color: var(--color-cor_do_fundo);
     overflow-x: hidden;
+    
+    background-image: url(./images/patternpad.png);
 }
 
 
@@ -62,7 +65,7 @@ header {
 
 .catalog-main {
     position: relative;
-    width: 850px;
+    /* width: 850px; */
     left: 50%;
     transform: translate(-50%, 0);
     margin: 60px 0px;
@@ -70,8 +73,9 @@ header {
 
 .catalog {
     margin-top: 60px;
+    margin: auto;
     width: 750px;
-    padding: 60px;
+    padding: 50px;
     /* background-color: rgba(0, 68, 255, 0.3); */
 
     background-color: var(--color-cor_do_card);
@@ -98,12 +102,13 @@ header {
 }
 
 .catalog .neto {
+    margin-top: 60px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr); 
 
     align-items: center;
     justify-content: center;
-    gap: .75rem;
+    gap: 1rem;
 
 }
 
@@ -238,16 +243,17 @@ header {
 
 .registration-main {
     position: relative;
-    width: 850px;
     left: 50%;
     transform: translate(-50%, 0);
     margin: 60px 0px;
 }
 
 .registration {
+    width: 690px;
+    padding: 80px 80px 30px 80px;
+    margin: auto;
     background-color: var(--color-cor_do_card);
     border-radius: 20px;
-    padding: 80px 80px 30px 80px;
     box-shadow: -10px 30px 20px rgba(0, 0, 0, .2);
     position: relative;
     top: 60px;
@@ -359,10 +365,10 @@ select {
 /* QUEM SOMOS */
 .quem-somos-main {
     position: relative;
-    width: 850px;
     left: 50%;
     transform: translate(-50%, 0);
     margin: 60px 0px;
+    /* width: 950px; */
     /* height: 650px; */
 }
 
@@ -376,8 +382,8 @@ select {
     border-radius: 20px;
 
     width: 750px;
-    padding-top: 100px;
     padding: 50px;
+    padding-top: 100px;
     margin: auto;
     background-color: var(--color-cor_do_card_variado);
     /* background-color: aquamarine; */
@@ -393,10 +399,14 @@ select {
 }
 
 .quem-somos img {
-    width: 500px;
+    width: 400px;
     float: left;
+
     margin: 0px 15px 0px 0px;
     border-radius: 20px;
+}
+.quem-somos .image2{
+    float: right;
 }
 
 .quem-somos p {
@@ -404,6 +414,7 @@ select {
     color: white;
     font-weight: bold;
     font-size: 25px;
+    text-align: left;
 }
 
 footer {
