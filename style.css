@@ -494,15 +494,15 @@ footer {
     text-decoration: none;
     transition: all .4s;
     font-weight: bold;
+    color: #00000078;
 }
 
 .footer-list .footer-link:hover {
-    color: rgb(77, 0, 184);
+    color: rgb(0, 107, 184);
 }
 
 .footer-copyright {
     background-color: #f6f6f6;
-    color: #000000;
     text-align: center;
     padding: 10px;
     font-size: .8rem;
