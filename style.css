@@ -76,7 +76,7 @@ header {
 
     background-color: var(--color-cor_do_card);
 
-    background-color:var(--color-cor_do_card);
+    background-color: var(--color-cor_do_card);
     border-radius: 20px;
 
     position: relative;
@@ -97,14 +97,14 @@ header {
 
 }
 
-.catalog .neto{
+.catalog .neto {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
     align-items: center;
     justify-content: center;
     gap: .75rem;
-    
+
 }
 
 .catalog .produto {
@@ -116,7 +116,7 @@ header {
 .catalog .produto img {
     width: 345px;
     height: 345px;
-    object-fit:cover;
+    object-fit: cover;
     position: center;
 
     border-radius: 20px;
@@ -134,7 +134,7 @@ header {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 30px;
-    
+
 }
 
 
@@ -355,6 +355,7 @@ select {
 .registration .submit:active {
     transform: translateY(-1px);
 }
+
 /* QUEM SOMOS */
 .quem-somos-main {
     position: relative;
